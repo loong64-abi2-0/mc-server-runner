@@ -2,7 +2,7 @@ project_name: mc-server-runner
 release:
   replace_existing_artifacts: true
   github:
-    owner: itzg
+    owner: loong64-abi2-0
     name: mc-server-runner
 brews:
   - install: |
@@ -14,6 +14,7 @@ builds:
   - amd64
   - arm
   - arm64
+  - loong64
   goarm:
   - "6"
   - "7"
